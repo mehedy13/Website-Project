@@ -1,0 +1,147 @@
+
+
+/************
+ Fonts
+ ***********/
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500&family=Russo+One&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;	
+}
+
+
+/*********
+Header part
+************/
+.header .navbar-whole{
+	display: flex;
+	justify-content: flex-start !important;
+	margin-top: 25px;
+	margin-bottom:40px ;
+
+}
+
+ .header .navbar-nav{
+	padding-left: 320px;
+}
+.header h1{
+font-family: 'Russo One', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+color: #FFFFFF;
+display: inline-block;
+}
+
+.header{
+position: absolute;
+background: #18163B;
+width: 100%;
+height: 100vh;
+}
+
+.header .navbar-nav .nav-item{
+	padding-left: 49px;
+}
+
+
+.header .navbar-nav .nav-link{
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF !important;
+font-family: 'Inter', sans-serif;
+
+}
+.header .navbar-nav .nav-btn{
+font-family: 'Inter', sans-serif;
+font-weight: 400;
+font-size: 16px;
+color: #FFFFFF;
+background: transparent;
+width: 159px;
+height: 57px;
+border-style: solid;
+border-width: 3px;
+border-image: linear-gradient(45deg, #6B1EF1, #CB28E5) 1;
+margin-top: -5px;
+
+}
+
+/******Banner Section******/
+
+
+.banner .square{
+width: 152.84px;
+height: 161.14px;
+background: url(../image/square.png);
+transform: rotate(-30deg);
+
+}
+
+.banner .welcome{
+margin:30px 0px;
+width: 309px;
+height: 72px;
+background: #090909;
+border-radius: 6px;
+opacity: 0.7;
+}
+
+.banner .welcome-p{	
+font-family: 'Inter' sans-serif;
+font-weight: 400;
+font-size: 22px;
+background: linear-gradient(95.79deg, #2317FA -33.63%, #D529E4 97.49%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+background-clip: text;
+text-fill-color: transparent;
+text-shadow: 6px 16px 31px rgba(59, 88, 239, 0.15);
+padding-left: 10px;
+}
+
+.banner .welcome-image, .banner .welcome-p{
+	padding: 15px 10px;
+}
+
+.banner .banner-h1{
+
+position: absolute;
+width: 467px;
+height: 200px;
+font-family: 'Russo One';
+font-weight: 400;
+font-size: 82.6667px;
+color: #FFFFFF;
+}
+
+.banner .banner-p{
+    position: absolute;
+    width: 460px;
+    height: 146px;
+    left: 185px;
+    top: 425px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    color: #DADADA;
+}
+
+.banner .robot{
+	position: relative;
+}
+
+.banner .robot-back1{
+position: absolute;
+width: 961px;
+height: 807px;
+left: 653.45px;
+top: 125.02px;
+opacity: 0.8;
+transform: rotate(-4.53deg);
+}
